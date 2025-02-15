@@ -1,0 +1,6 @@
+.env
+
+todo_db
+
+*.pyc
+*.pyo

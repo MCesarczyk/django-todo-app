@@ -41,7 +41,7 @@ COPY --from=builder /usr/local/bin/ /usr/local/bin/
 
 WORKDIR /app
 
-RUN pip install -U django gunicorn
+RUN pip install -U django gunicorn psycopg2-binary
 
 COPY --chown=appuser:appuser . .
 
